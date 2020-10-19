@@ -651,6 +651,7 @@ body.lock {
         border: none;
         &__btn:focus {
             outline: none;
+            border: none;
         }
     }
     @media (max-width: 750px) {
