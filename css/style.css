@@ -796,6 +796,11 @@ body.lock {
   border: none;
 }
 
+.subscribe__btn__btn:active {
+  outline: none;
+  border: none;
+}
+
 @media (max-width: 750px) {
   .subscribe__body {
     max-width: 524px;

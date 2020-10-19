@@ -653,6 +653,10 @@ body.lock {
             outline: none;
             border: none;
         }
+        &__btn:active {
+            outline: none;
+            border: none;
+        }
     }
     @media (max-width: 750px) {
         &__body {
