@@ -649,11 +649,11 @@ body.lock {
         text-transform: uppercase;
         background-color: #ff2400;
         border: none;
-        &__btn:focus {
+        .btn:focus {
             outline: none;
             border: none;
         }
-        &__btn:active {
+        .btn:active {
             outline: none;
             border: none;
         }

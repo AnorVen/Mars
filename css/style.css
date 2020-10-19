@@ -791,12 +791,12 @@ body.lock {
   border: none;
 }
 
-.subscribe__btn__btn:focus {
+.subscribe__btn .btn:focus {
   outline: none;
   border: none;
 }
 
-.subscribe__btn__btn:active {
+.subscribe__btn .btn:active {
   outline: none;
   border: none;
 }
