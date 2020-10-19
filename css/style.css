@@ -103,6 +103,10 @@ body.lock {
 }
 
 @media (max-width: 767px) {
+  .header .menu .header {
+    height: 400px;
+    width: 100%;
+  }
   .header .menu .header__logo {
     position: fixed;
   }
@@ -489,6 +493,10 @@ body.lock {
   margin-bottom: 20px;
 }
 
+.shop {
+  margin-top: 4%;
+}
+
 .shop__body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -712,7 +720,7 @@ body.lock {
   width: 100%;
   height: 70px;
   border: 1px solid rgba(235, 192, 167, 0.6);
-  background-color: #fff;
+  background-color: white;
   padding: 0px 0px 0px 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -806,7 +814,7 @@ body.lock {
 }
 
 .footer {
-  background-color: rgba(235, 192, 167, 0.6);
+  background-color: rgba(235, 192, 167, 0.7);
 }
 
 .footer__row {

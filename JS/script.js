@@ -13,7 +13,6 @@ $(document).ready(function () {
     })
 
 
-
     //Слайдер
 
     $('.slider__body').slick({
@@ -54,5 +53,6 @@ $(document).ready(function () {
 
         ]
     });
+
 
 });
