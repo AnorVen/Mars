@@ -5,9 +5,17 @@ $(document).ready(function () {
         $('.header__burger, .menu__body').toggleClass('active');
         $('body').toggleClass('lock');
     });
-});
-//Слайдер
-$(document).ready(function () {
+    $('.menu_list li').click(() => {
+        if (window.width > 765) {
+            $('.header__burger, .menu__body').removeClass('active');
+            $('body').removeClass('lock');
+        }
+    })
+
+
+
+    //Слайдер
+
     $('.slider__body').slick({
         dots: true,
         infinite: true,
