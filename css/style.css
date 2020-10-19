@@ -755,19 +755,19 @@ body.lock {
   color: #ff2400;
 }
 
-.subscribe__input input:focus::-webkit-input-placeholder {
+.subscribe__input .input:focus::-webkit-input-placeholder {
   color: transparent;
 }
 
-.subscribe__input input:focus:-ms-input-placeholder {
+.subscribe__input .input:focus:-ms-input-placeholder {
   color: transparent;
 }
 
-.subscribe__input input:focus::-ms-input-placeholder {
+.subscribe__input .input:focus::-ms-input-placeholder {
   color: transparent;
 }
 
-.subscribe__input input:focus::placeholder {
+.subscribe__input .input:focus::placeholder {
   color: transparent;
 }
 
@@ -789,6 +789,9 @@ body.lock {
   text-transform: uppercase;
   background-color: #ff2400;
   border: none;
+}
+
+.subscribe__btn .btn:focus {
   outline: none;
 }
 
