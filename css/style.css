@@ -8,7 +8,7 @@ body.lock {
 }
 
 .header {
-  background-image: url("/img/hbgg.jpg");
+  background-image: url("./img/hbgg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -319,21 +319,21 @@ body.lock {
 }
 
 .mars__image {
-  background-image: url("/img/profes.jpg");
+  background-image: url("./img/profes.jpg");
   background-position: center;
   background-repeat: no-repeat;
   padding: 0px 0px 37.51% 0px;
 }
 
 .mars__image-b {
-  background-image: url("/img/city.jpg");
+  background-image: url("./img/city.jpg");
   background-position: center;
   background-repeat: no-repeat;
   padding: 0px 0px 37.51% 0px;
 }
 
 .mars__image-lab {
-  background-image: url("/img/nostromo.jpg");
+  background-image: url("./img/nostromo.jpg");
   background-position: center;
   background-repeat: no-repeat;
   padding: 0px 0px 37.51% 0px;
@@ -394,7 +394,7 @@ body.lock {
 }
 
 .item__doctor {
-  background-image: url("/img/Dead.jpeg");
+  background-image: url("./img/Dead.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -406,7 +406,7 @@ body.lock {
 }
 
 .item__doom {
-  background-image: url("/img/doom2.png");
+  background-image: url("./img/doom2.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -418,7 +418,7 @@ body.lock {
 }
 
 .item__image {
-  background-image: url("/img/robowto.jpeg");
+  background-image: url("./img/robowto.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -428,7 +428,7 @@ body.lock {
 }
 
 .item .image__item-2 {
-  background-image: url("/img/build.jpg");
+  background-image: url("./img/build.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -612,7 +612,7 @@ body.lock {
 }
 
 .image__item-c {
-  background-image: url("/img/item-c.jpg");
+  background-image: url("./img/item-c.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -622,7 +622,7 @@ body.lock {
 }
 
 .image__item-d {
-  background-image: url("/img/item-d.jpg");
+  background-image: url("./img/item-d.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -632,7 +632,7 @@ body.lock {
 }
 
 .image__item-e {
-  background-image: url("/img/item-e.jpg");
+  background-image: url("./img/item-e.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -642,7 +642,7 @@ body.lock {
 }
 
 .image__item-f {
-  background-image: url("/img/item-f.jpg");
+  background-image: url("./img/item-f.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -652,7 +652,7 @@ body.lock {
 }
 
 .image__item-g {
-  background-image: url("/img/item-g.jpg");
+  background-image: url("./img/item-g.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -662,7 +662,7 @@ body.lock {
 }
 
 .image__item-h {
-  background-image: url("/img/item-h.jpg");
+  background-image: url("./img/item-h.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
