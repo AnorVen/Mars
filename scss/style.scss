@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&display=swap");
 $font-family: "Comfortaa", cursive;
 
-@import "./mixins.scss";
+@import "../mixins.scss";
 body {
     margin: 0px;
 }
@@ -9,7 +9,7 @@ body.lock {
     overflow: hidden;
 }
 .header {
-    background-image: url("./img/hbgg.jpg");
+    background-image: url("../img/hbgg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -291,21 +291,21 @@ body.lock {
     }
 
     &__image {
-        background-image: url("./img/profes.jpg");
+        background-image: url("../img/profes.jpg");
         background-position: center;
         background-repeat: no-repeat;
 
         padding: 0px 0px 37.51% 0px;
     }
     &__image-b {
-        background-image: url("./img/city.jpg");
+        background-image: url("../img/city.jpg");
         background-position: center;
         background-repeat: no-repeat;
 
         padding: 0px 0px 37.51% 0px;
     }
     &__image-lab {
-        background-image: url("./img/nostromo.jpg");
+        background-image: url("../img/nostromo.jpg");
         background-position: center;
         background-repeat: no-repeat;
 
@@ -363,7 +363,7 @@ body.lock {
     }
 
     &__doctor {
-        background-image: url("./img/Dead.jpeg");
+        background-image: url("../img/Dead.jpeg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -374,7 +374,7 @@ body.lock {
         left: 0;
     }
     &__doom {
-        background-image: url("./img/doom2.png");
+        background-image: url("../img/doom2.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -386,11 +386,11 @@ body.lock {
     }
 
     &__image {
-        background-image: url("./img/robowto.jpeg");
+        background-image: url("../img/robowto.jpeg");
         @include image;
     }
     .image__item-2 {
-        background-image: url("./img/build.jpg");
+        background-image: url("../img/build.jpg");
         @include image;
     }
     &:hover {
@@ -444,6 +444,7 @@ body.lock {
         margin-bottom: 20px;
     }
 }
+
 //Слайдер вроде бы==============================================================================================
 .shop {
     &__body {
@@ -529,38 +530,38 @@ body.lock {
 
 .image {
     &__item-a {
-        background-image: url("./img/item-a.jpg");
+        background-image: url("../img/item-a.jpg");
         @include image;
     }
 
     &__item-b {
-        background-image: url("./img/item-b.jpg");
+        background-image: url("../img/item-b.jpg");
         @include image;
     }
 
     &__item-c {
-        background-image: url("./img/item-c.jpg");
+        background-image: url("../img/item-c.jpg");
         @include image;
     }
 
     &__item-d {
-        background-image: url("./img/item-d.jpg");
+        background-image: url("../img/item-d.jpg");
         @include image;
     }
     &__item-e {
-        background-image: url("./img/item-e.jpg");
+        background-image: url("../img/item-e.jpg");
         @include image;
     }
     &__item-f {
-        background-image: url("./img/item-f.jpg");
+        background-image: url("../img/item-f.jpg");
         @include image;
     }
     &__item-g {
-        background-image: url("./img/item-g.jpg");
+        background-image: url("../img/item-g.jpg");
         @include image;
     }
     &__item-h {
-        background-image: url("./img/item-h.jpg");
+        background-image: url("../img/item-h.jpg");
         @include image;
     }
 }
@@ -571,6 +572,7 @@ body.lock {
         max-width: 524px;
         margin: 0 auto;
         text-align: center;
+        padding-bottom: 40px;
     }
 
     &__logo {
