@@ -16,6 +16,10 @@ body.lock {
     height: 800px;
     width: 100%;
     min-height: 100%;
+    @media (max-width: 600px) {
+        height: 700px;
+        width: 100%;
+    }
 
     &__row {
         width: 100%;
@@ -225,7 +229,7 @@ body.lock {
 
     &__title {
         font-family: "Comfortaa", cursive;
-        color: #353738;
+        color: #848789;
         font-size: 18px;
         font-weight: 700;
         line-height: 18px;
@@ -237,6 +241,7 @@ body.lock {
 
     &__text {
         font-family: "Comfortaa", cursive;
+        color: #848789;
         margin-bottom: 40px;
         line-height: 30px;
         &__text-j {
@@ -407,6 +412,9 @@ body.lock {
         height: auto;
         padding: 0px 0px 70% 0px;
     }
+    @media (max-width: 600px) {
+        margin-top: -40px;
+    }
 }
 //Слайдер вроде бы==============================================================================================
 
@@ -414,6 +422,7 @@ body.lock {
     &__item {
         border: none;
         outline: none;
+        padding: 60px 0px;
     }
     &__body {
         margin: 0 auto;
@@ -423,7 +432,6 @@ body.lock {
     &__icon {
         margin: 0 auto;
         margin-bottom: 35px;
-        margin-top: 40px;
         height: 40px;
         width: 40px;
     }
@@ -447,6 +455,11 @@ body.lock {
         font-style: italic;
         line-height: 34px;
         margin-bottom: 20px;
+    }
+    @media (max-width: 600px) {
+        &__item {
+            padding: 60px 20px;
+        }
     }
 }
 
@@ -615,7 +628,7 @@ body.lock {
             padding: 0px 0px 0px 20px;
             box-sizing: border-box;
             font-size: 20px;
-            font-style: italic;
+            font-family: "Comfortaa", cursive;
             max-width: 100%;
             outline: none;
         }
@@ -639,6 +652,7 @@ body.lock {
     }
 
     &__btn {
+        font-family: "Comfortaa", cursive;
         letter-spacing: 2.8px;
         padding: 0px 0px 0px 0px;
         width: 100%;

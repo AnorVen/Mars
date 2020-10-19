@@ -17,6 +17,13 @@ body.lock {
   min-height: 100%;
 }
 
+@media (max-width: 600px) {
+  .header {
+    height: 700px;
+    width: 100%;
+  }
+}
+
 .header__row {
   width: 100%;
   z-index: 1;
@@ -249,7 +256,7 @@ body.lock {
 
 .block__title {
   font-family: "Comfortaa", cursive;
-  color: #353738;
+  color: #848789;
   font-size: 18px;
   font-weight: 700;
   line-height: 18px;
@@ -261,6 +268,7 @@ body.lock {
 
 .block__text {
   font-family: "Comfortaa", cursive;
+  color: #848789;
   margin-bottom: 40px;
   line-height: 30px;
 }
@@ -453,9 +461,16 @@ body.lock {
   }
 }
 
+@media (max-width: 600px) {
+  .item {
+    margin-top: -40px;
+  }
+}
+
 .slider__item {
   border: none;
   outline: none;
+  padding: 60px 0px;
 }
 
 .slider__body {
@@ -466,7 +481,6 @@ body.lock {
 .slider__icon {
   margin: 0 auto;
   margin-bottom: 35px;
-  margin-top: 40px;
   height: 40px;
   width: 40px;
 }
@@ -491,6 +505,12 @@ body.lock {
   font-style: italic;
   line-height: 34px;
   margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .slider__item {
+    padding: 60px 20px;
+  }
 }
 
 .shop {
@@ -725,7 +745,7 @@ body.lock {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-size: 20px;
-  font-style: italic;
+  font-family: "Comfortaa", cursive;
   max-width: 100%;
   outline: none;
 }
@@ -778,6 +798,7 @@ body.lock {
 }
 
 .subscribe__btn {
+  font-family: "Comfortaa", cursive;
   letter-spacing: 2.8px;
   padding: 0px 0px 0px 0px;
   width: 100%;
