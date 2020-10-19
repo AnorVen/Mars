@@ -789,6 +789,7 @@ body.lock {
   text-transform: uppercase;
   background-color: #ff2400;
   border: none;
+  outline: none;
 }
 
 @media (max-width: 750px) {
