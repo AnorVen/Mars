@@ -17,11 +17,14 @@ $(document).ready(function () {
     //Слайдер
 
     $('.slider__body').slick({
+
         dots: true,
         infinite: true,
         speed: 300,
         slidesToShow: 1,
         slidesToScroll: 1,
+        arrows: false,
+        autoplay: true,
         responsive: [
             {
                 breakpoint: 1024,
@@ -30,6 +33,7 @@ $(document).ready(function () {
                     slidesToScroll: 1,
                     infinite: true,
                     dots: true
+
                 }
             },
             {
