@@ -31,8 +31,8 @@ $(document).ready(function () {
                     slidesToScroll: 1,
                     infinite: true,
                     arrows: false,
-                    autoplay: true,
-                    dots: true
+                    autoplay: false,
+                    dots: false
 
                 }
             },
@@ -40,14 +40,16 @@ $(document).ready(function () {
                 breakpoint: 600,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    dots: false
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    dots: false
                 }
             }
 
