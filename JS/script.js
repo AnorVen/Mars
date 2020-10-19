@@ -17,7 +17,6 @@ $(document).ready(function () {
     //Слайдер
 
     $('.slider__body').slick({
-
         dots: true,
         infinite: true,
         speed: 300,
@@ -32,6 +31,8 @@ $(document).ready(function () {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true,
+                    arrows: false,
+                    autoplay: true,
                     dots: true
 
                 }
@@ -50,9 +51,7 @@ $(document).ready(function () {
                     slidesToScroll: 1
                 }
             }
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
+
         ]
     });
 
