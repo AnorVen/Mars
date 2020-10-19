@@ -791,7 +791,7 @@ body.lock {
   border: none;
 }
 
-.subscribe__btn .btn:focus {
+.subscribe__btn__btn:focus {
   outline: none;
 }
 
