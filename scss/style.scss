@@ -665,8 +665,9 @@ body.lock {
         background-color: #ff2400;
         border: none;
         .btn:focus {
-            outline: none;
-            border: none;
+            outline-style: none;
+            outline-width: 0px !important;
+            outline-color: none !important;
         }
         .btn:active {
             outline: none;
