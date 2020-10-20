@@ -2,6 +2,7 @@
 $font-family: "Comfortaa", cursive;
 
 @import "./mixins.scss";
+
 body {
     margin: 0px;
 }
@@ -654,11 +655,6 @@ body.lock {
         :focus {
             outline: none !important;
             border: none !important;
-            outline: 0 !important;
-            outline-offset: 0 !important;
-            outline-style: none !important;
-            outline-width: 0px !important;
-            outline-color: none !important;
         }
     }
 
