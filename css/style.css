@@ -824,18 +824,6 @@ body.lock {
   border: none;
 }
 
-.subscribe__btn .btn:active,
-.subscribe__btn :hover,
-.subscribe__btn :focus {
-  outline: none !important;
-  border: none !important;
-  outline: 0 !important;
-  outline-offset: 0 !important;
-  outline-style: none !important;
-  outline-width: 0px !important;
-  outline-color: none !important;
-}
-
 @media (max-width: 750px) {
   .subscribe__body {
     max-width: 524px;

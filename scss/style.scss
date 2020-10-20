@@ -675,17 +675,6 @@ body.lock {
         text-transform: uppercase;
         background-color: #ff2400;
         border: none;
-        .btn:active,
-        :hover,
-        :focus {
-            outline: none !important;
-            border: none !important;
-            outline: 0 !important;
-            outline-offset: 0 !important;
-            outline-style: none !important;
-            outline-width: 0px !important;
-            outline-color: none !important;
-        }
     }
     @media (max-width: 750px) {
         &__body {
