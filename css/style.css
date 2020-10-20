@@ -807,8 +807,8 @@ body.lock {
 
 .subscribe__button .button:active,
 .subscribe__button :focus {
-  outline: none !important;
-  border: none !important;
+  outline: none;
+  border: none;
 }
 
 .subscribe__btn {
