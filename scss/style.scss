@@ -301,11 +301,18 @@ body.lock {
     }
 
     &__image {
-        background-image: url("../img/profes.jpg");
+        background-image: url("../img/prof.jpg");
         background-position: center;
         background-repeat: no-repeat;
 
         padding: 0px 0px 37.51% 0px;
+    }
+    @media (max-width: 600px) {
+        &__image {
+            background-image: url("../img/profes.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+        }
     }
     &__image-b {
         background-image: url("../img/city.jpg");
@@ -367,8 +374,8 @@ body.lock {
         height: 100%;
 
         z-index: 10;
-        background-color: rgba(235, 192, 167, 0.7);
-        opacity: 0;
+        background-color: rgba(255, 255, 255, 0.7);
+        opacity: 1;
         visibility: hidden;
     }
 
@@ -652,7 +659,6 @@ body.lock {
         flex: 0 0 126px;
 
         .button:active,
-        :hover,
         :focus {
             outline: none !important;
             border: none !important;
