@@ -649,6 +649,17 @@ body.lock {
 
     &__button {
         flex: 0 0 126px;
+        .button:active,
+        :hover,
+        :focus {
+            outline: none !important;
+            border: none !important;
+            outline: 0 !important;
+            outline-offset: 0 !important;
+            outline-style: none !important;
+            outline-width: 0px !important;
+            outline-color: none !important;
+        }
     }
 
     &__btn {
@@ -667,15 +678,13 @@ body.lock {
         .btn:active,
         :hover,
         :focus {
-            outline: 0;
-            outline-offset: 0;
-            outline-style: none;
+            outline: none !important;
+            border: none !important;
+            outline: 0 !important;
+            outline-offset: 0 !important;
+            outline-style: none !important;
             outline-width: 0px !important;
             outline-color: none !important;
-        }
-        .btn:active {
-            outline: none;
-            border: none;
         }
     }
     @media (max-width: 750px) {

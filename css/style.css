@@ -797,6 +797,18 @@ body.lock {
           flex: 0 0 126px;
 }
 
+.subscribe__button .button:active,
+.subscribe__button :hover,
+.subscribe__button :focus {
+  outline: none !important;
+  border: none !important;
+  outline: 0 !important;
+  outline-offset: 0 !important;
+  outline-style: none !important;
+  outline-width: 0px !important;
+  outline-color: none !important;
+}
+
 .subscribe__btn {
   font-family: "Comfortaa", cursive;
   letter-spacing: 2.8px;
@@ -812,14 +824,16 @@ body.lock {
   border: none;
 }
 
-.subscribe__btn .btn:focus {
-  outline: none;
-  border: none;
-}
-
-.subscribe__btn .btn:active {
-  outline: none;
-  border: none;
+.subscribe__btn .btn:active,
+.subscribe__btn :hover,
+.subscribe__btn :focus {
+  outline: none !important;
+  border: none !important;
+  outline: 0 !important;
+  outline-offset: 0 !important;
+  outline-style: none !important;
+  outline-width: 0px !important;
+  outline-color: none !important;
 }
 
 @media (max-width: 750px) {
